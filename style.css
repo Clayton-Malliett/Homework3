@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(stockimages/wolfpack.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+
+}
+
+.menuicon {
+    height: 30px;
+    width: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.logo {
+    height: 43x;
+    width: 43px;
+    cursor: pointer;
+    border-radius: 150px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+
+}
+
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 45px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.column{
+    flex-basis: 50%;
+}
+
+h1 {
+    color: white;
+    font-size: 75px;
+}
+
+.text1 :nth-child(1){
+    color: white;
+}
+
+p {
+    color: black;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 1000;
+}
+
+h5 {
+    font-size: 27px;
+}
+button {
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: white;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.card {
+    width: 200px;
+    height: 210px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 8em;
+    font-weight: 1500;
+    transition: transform 0.1s;
+}
+
+.card1 {
+    background-image: url(stockimages/redwolfmax.jpg);
+}
+.card2 {
+    background-image: url(stockimages/redwolftyke.jpg);
+}
+.card3 {
+    background-image: url(stockimages/greywolfdiego.jpg);
+}
+.card4 {
+    background-image: url(stockimages/greywolfrhett.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+/*about page style*/ 
+
+.headshot {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: white;
+    font-size: 43px;
+
+}
+
+.card5 {
+    background-image: url(stockimages/motorcycles.jpg);
+}
+.card6 {
+    background-image: url(stockimages/plants.jpg);
+}
+.card7 {
+    background-image: url(stockimages/foodtable.jpg);
+}
+.card8 {
+    background-image: url(stockimages/tarkov.jpg);
+}
